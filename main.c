@@ -11,6 +11,7 @@ int main(void)
     while (1) 
     {
 		counter = 255;
+    		initPWM();
 		while(counter>0){
 			OCR2 = counter;
 			counter--;
